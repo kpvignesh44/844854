@@ -12,101 +12,232 @@ formatter.feature({
     }
   ]
 });
-formatter.scenario({
-  "line": 49,
-  "name": "To check if the user is able to buy books from android category",
-  "description": "",
-  "id": "testing-the-practice-automation-website;to-check-if-the-user-is-able-to-buy-books-from-android-category",
-  "type": "scenario",
-  "keyword": "Scenario",
+formatter.scenarioOutline({
+  "line": 4,
+  "name": "Automation Website",
+  "description": "To check if the user is able to register with valid details",
+  "id": "testing-the-practice-automation-website;automation-website",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 48,
-      "name": "@TC_05_Adding_books_from_android_Category"
+      "line": 3,
+      "name": "@TC-01_Register"
     }
   ]
 });
 formatter.step({
-  "line": 50,
-  "name": "Launch chrome",
+  "line": 6,
+  "name": "Launch the chrome browser in system",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 51,
-  "name": "opening the website",
+  "line": 7,
+  "name": "open the Practice automation website",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 52,
-  "name": "Enter Email and password in website",
+  "line": 8,
+  "name": "The user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 53,
-  "name": "login Button",
+  "line": 9,
+  "name": "Click the Register button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 54,
-  "name": "Click Shop icon, click android and buy the book",
+  "line": 10,
+  "name": "Close the browser",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 12,
+  "name": "",
+  "description": "",
+  "id": "testing-the-practice-automation-website;automation-website;",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ],
+      "line": 14,
+      "id": "testing-the-practice-automation-website;automation-website;;1"
+    },
+    {
+      "cells": [
+        "vignesh@gmail.com",
+        "9869868@7\u0026"
+      ],
+      "line": 15,
+      "id": "testing-the-practice-automation-website;automation-website;;2"
+    },
+    {
+      "cells": [
+        "vicky@gmail.com",
+        "sanjeev!@#$"
+      ],
+      "line": 16,
+      "id": "testing-the-practice-automation-website;automation-website;;3"
+    },
+    {
+      "cells": [
+        "kpvic@gmail.com",
+        "admin^%$#"
+      ],
+      "line": 17,
+      "id": "testing-the-practice-automation-website;automation-website;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Automation Website",
+  "description": "To check if the user is able to register with valid details",
+  "id": "testing-the-practice-automation-website;automation-website;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Practice_Automation"
+    },
+    {
+      "line": 3,
+      "name": "@TC-01_Register"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "Launch the chrome browser in system",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "open the Practice automation website",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 55,
-  "name": "View the cart android book",
+  "line": 8,
+  "name": "The user enters \"vignesh@gmail.com\" and \"9869868@7\u0026\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 56,
+  "line": 9,
+  "name": "Click the Register button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AndroidCategoryStepDefinition.launch_the_chrome_browser_in_system()"
+  "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 4624560591,
+  "duration": 5413840913,
   "status": "passed"
 });
 formatter.match({
-  "location": "AndroidCategoryStepDefinition.open_the_Practice_automation_website()"
+  "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 14626574607,
+  "duration": 18211018722,
   "status": "passed"
 });
 formatter.match({
-  "location": "AndroidCategoryStepDefinition.enter_the_Email_and_password_in_Login()"
+  "arguments": [
+    {
+      "val": "vignesh@gmail.com",
+      "offset": 17
+    },
+    {
+      "val": "9869868@7\u0026",
+      "offset": 41
+    }
+  ],
+  "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 4932429983,
+  "duration": 7330186698,
   "status": "passed"
 });
 formatter.match({
-  "location": "AndroidCategoryStepDefinition.click_Login_Button()"
+  "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 8367922527,
+  "duration": 2057311140,
   "status": "passed"
-});
-formatter.match({
-  "location": "AndroidCategoryStepDefinition.click_Shop_icon_click_android_and_buy_the_book()"
-});
-formatter.result({
-  "duration": 75142299726,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.practiceautomation.stepdefinition.AndroidCategoryStepDefinition.click_Shop_icon_click_android_and_buy_the_book(AndroidCategoryStepDefinition.java:65)\r\n\tat ✽.Then Click Shop icon, click android and buy the book(src/main/resources/Feature/TestCase.feature:54)\r\n",
-  "status": "failed"
-});
-formatter.match({
-  "location": "AndroidCategoryStepDefinition.view_the_cart_android_book()"
-});
-formatter.result({
-  "status": "skipped"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7081638687,
+  "status": "passed"
 });
+formatter.scenario({
+  "line": 16,
+  "name": "Automation Website",
+  "description": "To check if the user is able to register with valid details",
+  "id": "testing-the-practice-automation-website;automation-website;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Practice_Automation"
+    },
+    {
+      "line": 3,
+      "name": "@TC-01_Register"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "Launch the chrome browser in system",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "open the Practice automation website",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 8,
+  "name": "The user enters \"vicky@gmail.com\" and \"sanjeev!@#$\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Click the Register button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Close the browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
+});
+formatter.result({
+  "duration": 3393821943,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });

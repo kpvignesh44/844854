@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 features = "src/main/resources/Feature/TestCase.feature",
 plugin = {"pretty", "html:reports/cucumber-html-report","json:reports/cucumber-html-report/jsonreport","com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html"},
 glue = {"com.practiceautomation.stepdefinition"},
-tags= {"@TC_05_Adding_books_from_android_Category"},
+//tags= {"@TC_05_Adding_books_from_android_Category"},
 monochrome = true
 )
 

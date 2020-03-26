@@ -14,7 +14,18 @@ Examples:
 |username	        |password	|
 |vignesh@gmail.com	|9869868@7&	|
 |vicky@gmail.com	|sanjeev!@#$|
-|kpvic@gmail.com	|admin^%$#	|
+|kpraj@gmail.com	|admin^%$#	|
+|pvic91@gmail.com	|admin^%$#	|
+|arya@gmail.com	    |89dmin^%$#	|
+|mahesh@gmail.com	|90admin^%$#|
+|sachin@gmail.com	|a09dmin^%$#|
+|raju@gmail.com	    |admin^%$#	|
+|sanjay@gmail.com	|89dmin^%$#	|
+|gangji@gmail.com	|adjhmin^%$#|
+|bala@gmail.com	    |aygvhdmin^%|
+|mala@gmail.com	    |ajhbdmin^%$#|
+|kala@gmail.com	    |ajkkdmin^%$#|
+|karthik@gmail.com	|hkujadmin^%$|
 
 @TC-02_Login_Functionlity
 Scenario: To check if the user is able to login with valid details
