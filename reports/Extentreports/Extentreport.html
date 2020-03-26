@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Mar 25, 2020 04:11:45 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Mar 26, 2020 10:11:18 AM</span>
 				</a>
 			</li>
 			<li>
@@ -165,10 +165,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='57.143%'><span class='strong'>4</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='42.857%'><span class='strong'>3</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='14.286%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='28.571%'>2</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='14.286%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='42.857%'>3</span> others
 				</div>
 			</div>
 		</div>
@@ -185,7 +185,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Testing the practice automation website</span>
-						<span class='test-time'>Mar 25, 2020 04:11:45 PM</span>
+						<span class='test-time'>Mar 26, 2020 10:11:19 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -193,7 +193,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@TC_05_Adding_books_from_android_Category</span>
 	</div>
-	<span class='duration right label'>0h 1m 47s+751ms</span>
+	<span class='duration right label'>0h 0m 33s+557ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">To check if the user is able to buy books from android category</span>
@@ -223,26 +223,45 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='6' class='node and pass' status='pass'>
+		<li test-id='6' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And login Button</span>
-				<div class='pre'>passed</div>
+				<div class='pre'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P3S8U0P', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96729d4556cf6d934869af132585aa0a
+*** Element info: {Using=xpath, value=//*[@id="customer_login"]/div[1]/form/p[3]/input[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.practiceautomation.pages.LoginPage.clickLoginButton(LoginPage.java:84)
+	at com.practiceautomation.stepdefinition.AndroidCategoryStepDefinition.click_Login_Button(AndroidCategoryStepDefinition.java:51)
+	at ?.And login Button(src/main/resources/Feature/TestCase.feature:53)
+</pre></div>
 			
 		</li>
-		<li test-id='7' class='node then fail' status='fail'>
+		<li test-id='7' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then Click Shop icon, click android and buy the book</span>
-				<div class='pre'><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.practiceautomation.stepdefinition.AndroidCategoryStepDefinition.click_Shop_icon_click_android_and_buy_the_book(AndroidCategoryStepDefinition.java:65)
-	at ?.Then Click Shop icon, click android and buy the book(src/main/resources/Feature/TestCase.feature:54)
-</pre></div>
+				<div class='pre'>skipped</div>
 			
 		</li>
 		<li test-id='8' class='node then skip' status='skip'>
@@ -340,7 +359,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 04:11:45 PM</td>
+										<td>Mar 26, 2020 10:11:19 AM</td>
 										<td class='linked' test-id='1'>Testing the practice automation website</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -374,7 +393,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 25, 2020 04:11:45 PM</td>
+										<td>Mar 26, 2020 10:11:19 AM</td>
 										<td class='linked' test-id='2'>Testing the practice automation website.To check if the user is able to buy books from android category</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -422,7 +441,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.AssertionError</span>
+                                <span class='exception-name'>org.openqa.selenium.WebDriverException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -437,14 +456,33 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Mar 25, 2020 04:12:17 PM</td>
-                                                        <td class='linked' test-id='7'>Testing the practice automation website.To check if the user is able to buy books from android category.Then Click Shop icon, click android and buy the book</td>
-                                                        <td><pre><pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.practiceautomation.stepdefinition.AndroidCategoryStepDefinition.click_Shop_icon_click_android_and_buy_the_book(AndroidCategoryStepDefinition.java:65)
-	at ?.Then Click Shop icon, click android and buy the book(src/main/resources/Feature/TestCase.feature:54)
+                                                        <td>Mar 26, 2020 10:11:44 AM</td>
+                                                        <td class='linked' test-id='6'>Testing the practice automation website.To check if the user is able to buy books from android category.And login Button</td>
+                                                        <td><pre><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P3S8U0P', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96729d4556cf6d934869af132585aa0a
+*** Element info: {Using=xpath, value=//*[@id="customer_login"]/div[1]/form/p[3]/input[3]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.practiceautomation.pages.LoginPage.clickLoginButton(LoginPage.java:84)
+	at com.practiceautomation.stepdefinition.AndroidCategoryStepDefinition.click_Login_Button(AndroidCategoryStepDefinition.java:51)
+	at ?.And login Button(src/main/resources/Feature/TestCase.feature:53)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -489,19 +527,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 25, 2020 04:11:45 PM</div>
+					<div class='panel-lead'>Mar 26, 2020 10:11:18 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 25, 2020 04:13:32 PM</div>
+			 		<div class='panel-lead'>Mar 26, 2020 10:11:52 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>107,879ms</div>
+					<div class='panel-lead'>33,680ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -593,14 +631,14 @@
 				infoChild: 0,
 				exceptionsChild: 1,
 				
-				passGrandChild: 4,
+				passGrandChild: 3,
 				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 2,
+				skipGrandChild: 3,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 3,
+				exceptionsGrandChild: 4,
 			};
 		</script>
 		
