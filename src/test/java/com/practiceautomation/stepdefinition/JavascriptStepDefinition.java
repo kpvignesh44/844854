@@ -22,8 +22,6 @@ import cucumber.api.java.en.Then;
 
 public class JavascriptStepDefinition {
 	LoginPage login = new LoginPage();
-
-	
 	JavaScriptPage js = new JavaScriptPage();
 	
 //	To check if the user is able to buy books from javascipt category

@@ -25,15 +25,9 @@ import cucumber.api.java.en.Then;
 public class PlaceOrderStepsDefinition {
 
 	LoginPage login = new LoginPage();
-
-	RegisterPage reg = new RegisterPage();
-	AndroidCategoryPage androidbook = new AndroidCategoryPage();
-	BillingDetailsPage billing = new BillingDetailsPage();
 	JavaScriptPage js = new JavaScriptPage();
 	PlaceOrderPage placeorder = new PlaceOrderPage();
-	SortingLowToHighPage lowtohigh = new SortingLowToHighPage();
-	FilterAddToBasketPage filteraddtobasket = new FilterAddToBasketPage();
-	FilterFunctionalityPage filterfunc = new FilterFunctionalityPage();
+	
 	@Given("^Launching a chrome to open website$")
 	public void launch_the_chrome_browser_in_system() 
 	{
