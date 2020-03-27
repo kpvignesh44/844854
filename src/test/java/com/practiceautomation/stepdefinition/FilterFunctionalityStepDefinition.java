@@ -11,7 +11,6 @@ import cucumber.api.java.en.Then;
 
 public class FilterFunctionalityStepDefinition {
 	LoginPage login = new LoginPage();
-	FilterAddToBasketPage filteraddtobasket = new FilterAddToBasketPage();
 	FilterFunctionalityPage filterfunc = new FilterFunctionalityPage();
 	
 //	To check if the user is able to filter the price using slider
@@ -42,7 +41,7 @@ public class FilterFunctionalityStepDefinition {
 	public void click_shop_icon_and_Filter_price_using_Slider() throws InterruptedException, IOException 
 	{
 		filterfunc.sliderfunc();
-		filterfunc.screenshot("Screenshots\\filter.png");
+		filterfunc.screenshot("src/test/resources/Screenshots/filter.png");
 	}
 	@Then("^Closing the browser$")
 	public void close_the_browser() throws InterruptedException 

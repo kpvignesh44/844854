@@ -42,7 +42,7 @@ public class SotingLowtoHighStepDefinition {
 	public void click_Shop_icon_and_in_Dropdown_select_the_prices_from_low_to_high() throws InterruptedException, IOException 
 	{
 	    lowtohigh.priceLowToHigh();
-	    lowtohigh.screenshot("Screenshots\\sorting.png");
+	    lowtohigh.screenshot("src/test/resources/Screenshots/sorting.png");
 	}
 	
 	

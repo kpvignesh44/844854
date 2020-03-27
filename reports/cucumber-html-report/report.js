@@ -231,14 +231,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 4550885843,
+  "duration": 4737377277,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 17962415960,
+  "duration": 15747399033,
   "status": "passed"
 });
 formatter.match({
@@ -255,21 +255,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7385961838,
+  "duration": 7392178333,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2072318098,
+  "duration": 2070659762,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7319541179,
+  "duration": 7313263516,
   "status": "passed"
 });
 formatter.scenario({
@@ -323,14 +323,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3422225100,
+  "duration": 3313652802,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 23128769108,
+  "duration": 12520646887,
   "status": "passed"
 });
 formatter.match({
@@ -347,21 +347,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7268645141,
+  "duration": 7365723872,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2058087446,
+  "duration": 6708755500,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7310320272,
+  "duration": 7318985002,
   "status": "passed"
 });
 formatter.scenario({
@@ -415,14 +415,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3490208946,
+  "duration": 3280706590,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 32914180735,
+  "duration": 11476838046,
   "status": "passed"
 });
 formatter.match({
@@ -439,21 +439,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7249380578,
+  "duration": 7320067526,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2057047210,
+  "duration": 2072738723,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7315777829,
+  "duration": 7321438146,
   "status": "passed"
 });
 formatter.scenario({
@@ -507,14 +507,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 4207151914,
+  "duration": 3535631191,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 28591244726,
+  "duration": 12181256650,
   "status": "passed"
 });
 formatter.match({
@@ -531,21 +531,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7284523179,
+  "duration": 7313911068,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2063261817,
+  "duration": 2076196234,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7312301062,
+  "duration": 7327260068,
   "status": "passed"
 });
 formatter.scenario({
@@ -599,14 +599,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3371373240,
+  "duration": 3275512963,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 22021441695,
+  "duration": 11268335902,
   "status": "passed"
 });
 formatter.match({
@@ -623,21 +623,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7318091645,
+  "duration": 7432439801,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 11924638976,
+  "duration": 7529368632,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7315002655,
+  "duration": 7089586012,
   "status": "passed"
 });
 formatter.scenario({
@@ -691,14 +691,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3431236827,
+  "duration": 3494068956,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 19377286914,
+  "duration": 11793235484,
   "status": "passed"
 });
 formatter.match({
@@ -715,21 +715,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7317026489,
+  "duration": 7359897419,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2056002444,
+  "duration": 2071965815,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7315133298,
+  "duration": 7323944907,
   "status": "passed"
 });
 formatter.scenario({
@@ -783,14 +783,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3435867481,
+  "duration": 3815297922,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 21583051972,
+  "duration": 12381938335,
   "status": "passed"
 });
 formatter.match({
@@ -807,21 +807,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7326958380,
+  "duration": 7386542558,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 14415512087,
+  "duration": 7467785540,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7333107288,
+  "duration": 7339524278,
   "status": "passed"
 });
 formatter.scenario({
@@ -875,14 +875,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 4649277045,
+  "duration": 3305856508,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 15837160243,
+  "duration": 12640349897,
   "status": "passed"
 });
 formatter.match({
@@ -899,21 +899,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7306795175,
+  "duration": 7310490938,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2053643695,
+  "duration": 2068686146,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7309950242,
+  "duration": 7330523123,
   "status": "passed"
 });
 formatter.scenario({
@@ -967,14 +967,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3299818987,
+  "duration": 3494500154,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 29761914381,
+  "duration": 17320960506,
   "status": "passed"
 });
 formatter.match({
@@ -991,21 +991,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7337396609,
+  "duration": 7388970405,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2056353217,
+  "duration": 9754534937,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7314471398,
+  "duration": 7078967678,
   "status": "passed"
 });
 formatter.scenario({
@@ -1059,14 +1059,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3288918978,
+  "duration": 3548084947,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 33843291782,
+  "duration": 12620541240,
   "status": "passed"
 });
 formatter.match({
@@ -1083,21 +1083,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7355543154,
+  "duration": 7333466745,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 8098433870,
+  "duration": 7617786031,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7069173981,
+  "duration": 7318912884,
   "status": "passed"
 });
 formatter.scenario({
@@ -1151,14 +1151,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3396728939,
+  "duration": 3365765406,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 20105615084,
+  "duration": 11796824392,
   "status": "passed"
 });
 formatter.match({
@@ -1175,21 +1175,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7280456632,
+  "duration": 7315479161,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2057060803,
+  "duration": 8245292509,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7068157910,
+  "duration": 7074119916,
   "status": "passed"
 });
 formatter.scenario({
@@ -1243,14 +1243,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3295132829,
+  "duration": 3422974977,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 18100414659,
+  "duration": 11810026136,
   "status": "passed"
 });
 formatter.match({
@@ -1267,21 +1267,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7358831885,
+  "duration": 7347372677,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 14158621799,
+  "duration": 8193170088,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7081639441,
+  "duration": 7082899807,
   "status": "passed"
 });
 formatter.scenario({
@@ -1335,14 +1335,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3327639914,
+  "duration": 3304934834,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 29872567906,
+  "duration": 13322651314,
   "status": "passed"
 });
 formatter.match({
@@ -1359,21 +1359,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7307249783,
+  "duration": 7337887087,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 2053567801,
+  "duration": 8676162327,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7075342523,
+  "duration": 7073924328,
   "status": "passed"
 });
 formatter.scenario({
@@ -1427,14 +1427,14 @@ formatter.match({
   "location": "RegisterationStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3468165387,
+  "duration": 3406715959,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 15599753892,
+  "duration": 12362013760,
   "status": "passed"
 });
 formatter.match({
@@ -1451,21 +1451,21 @@ formatter.match({
   "location": "RegisterationStepDefinition.enter_the_Email_and_password(String,String)"
 });
 formatter.result({
-  "duration": 7346056430,
+  "duration": 7346198779,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.click_the_Register_button()"
 });
 formatter.result({
-  "duration": 9718865611,
+  "duration": 5487956297,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7073146134,
+  "duration": 7330561259,
   "status": "passed"
 });
 formatter.scenario({
@@ -1511,35 +1511,35 @@ formatter.match({
   "location": "LoginStepDefiniton.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3368997878,
+  "duration": 3675981843,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefiniton.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 17823405344,
+  "duration": 15140307608,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefiniton.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4884334087,
+  "duration": 5400366179,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefiniton.click_Login_Button()"
 });
 formatter.result({
-  "duration": 15193306017,
+  "duration": 9726780465,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterationStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7070558948,
+  "duration": 7080132893,
   "status": "passed"
 });
 formatter.scenario({
@@ -1590,42 +1590,42 @@ formatter.match({
   "location": "FilterFunctionalityStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3313002230,
+  "duration": 3416838907,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterFunctionalityStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 11245717287,
+  "duration": 14074088576,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterFunctionalityStepDefinition.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4335617070,
+  "duration": 4350770530,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterFunctionalityStepDefinition.click_Login_Button()"
 });
 formatter.result({
-  "duration": 10268566604,
+  "duration": 7603519508,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterFunctionalityStepDefinition.click_shop_icon_and_Filter_price_using_Slider()"
 });
 formatter.result({
-  "duration": 42409034306,
+  "duration": 35401839499,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterFunctionalityStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7092522083,
+  "duration": 5152495924,
   "status": "passed"
 });
 formatter.scenario({
@@ -1681,49 +1681,49 @@ formatter.match({
   "location": "FilteringAddToBasketPageStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3397357990,
+  "duration": 3400536089,
   "status": "passed"
 });
 formatter.match({
   "location": "FilteringAddToBasketPageStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 26542551496,
+  "duration": 12670174646,
   "status": "passed"
 });
 formatter.match({
   "location": "FilteringAddToBasketPageStepDefinition.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4347803876,
+  "duration": 4309808272,
   "status": "passed"
 });
 formatter.match({
   "location": "FilteringAddToBasketPageStepDefinition.click_Login_Button()"
 });
 formatter.result({
-  "duration": 22196412376,
+  "duration": 7631073108,
   "status": "passed"
 });
 formatter.match({
   "location": "FilteringAddToBasketPageStepDefinition.click_shop_icon_and_Filter_price_using_Slider()"
 });
 formatter.result({
-  "duration": 105888077803,
+  "duration": 30648097860,
   "status": "passed"
 });
 formatter.match({
   "location": "FilteringAddToBasketPageStepDefinition.add_the_books_to_the_basket_and_View_the_cart()"
 });
 formatter.result({
-  "duration": 7093825493,
+  "duration": 6774732125,
   "status": "passed"
 });
 formatter.match({
   "location": "FilteringAddToBasketPageStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7580854829,
+  "duration": 7492643589,
   "status": "passed"
 });
 formatter.scenario({
@@ -1779,36 +1779,36 @@ formatter.match({
   "location": "AndroidCategoryStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3456768103,
+  "duration": 3364428769,
   "status": "passed"
 });
 formatter.match({
   "location": "AndroidCategoryStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 21958014120,
+  "duration": 12762058617,
   "status": "passed"
 });
 formatter.match({
   "location": "AndroidCategoryStepDefinition.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4320682984,
+  "duration": 4397603040,
   "status": "passed"
 });
 formatter.match({
   "location": "AndroidCategoryStepDefinition.click_Login_Button()"
 });
 formatter.result({
-  "duration": 9916622175,
+  "duration": 10111497796,
   "status": "passed"
 });
 formatter.match({
   "location": "AndroidCategoryStepDefinition.click_Shop_icon_click_android_and_buy_the_book()"
 });
 formatter.result({
-  "duration": 75069643692,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.practiceautomation.stepdefinition.AndroidCategoryStepDefinition.click_Shop_icon_click_android_and_buy_the_book(AndroidCategoryStepDefinition.java:65)\r\n\tat ✽.Then Click Shop icon, click android and buy the book(src/main/resources/Feature/TestCase.feature:65)\r\n",
+  "duration": 57068023114,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.practiceautomation.stepdefinition.AndroidCategoryStepDefinition.click_Shop_icon_click_android_and_buy_the_book(AndroidCategoryStepDefinition.java:66)\r\n\tat ✽.Then Click Shop icon, click android and buy the book(src/main/resources/Feature/TestCase.feature:65)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -1876,49 +1876,49 @@ formatter.match({
   "location": "JavascriptStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3450408127,
+  "duration": 3781890684,
   "status": "passed"
 });
 formatter.match({
   "location": "JavascriptStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 17066869981,
+  "duration": 12486082362,
   "status": "passed"
 });
 formatter.match({
   "location": "JavascriptStepDefinition.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4317850748,
+  "duration": 4464838142,
   "status": "passed"
 });
 formatter.match({
   "location": "JavascriptStepDefinition.click_Login_Button()"
 });
 formatter.result({
-  "duration": 7913041196,
+  "duration": 10650827393,
   "status": "passed"
 });
 formatter.match({
   "location": "JavascriptStepDefinition.click_Shop_icon_Click_JavaScript_and_buy_the_book()"
 });
 formatter.result({
-  "duration": 33608218504,
+  "duration": 25543802045,
   "status": "passed"
 });
 formatter.match({
   "location": "JavascriptStepDefinition.view_the_cart_js_book()"
 });
 formatter.result({
-  "duration": 9181348402,
+  "duration": 4768162592,
   "status": "passed"
 });
 formatter.match({
   "location": "JavascriptStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7106109715,
+  "duration": 7083522439,
   "status": "passed"
 });
 formatter.scenario({
@@ -1969,42 +1969,42 @@ formatter.match({
   "location": "SotingLowtoHighStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 3403408726,
+  "duration": 3474942966,
   "status": "passed"
 });
 formatter.match({
   "location": "SotingLowtoHighStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 24073379856,
+  "duration": 13355147072,
   "status": "passed"
 });
 formatter.match({
   "location": "SotingLowtoHighStepDefinition.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4334679158,
+  "duration": 4348975887,
   "status": "passed"
 });
 formatter.match({
   "location": "SotingLowtoHighStepDefinition.click_Login_Button()"
 });
 formatter.result({
-  "duration": 10514877449,
+  "duration": 7226410057,
   "status": "passed"
 });
 formatter.match({
   "location": "SotingLowtoHighStepDefinition.click_Shop_icon_and_in_Dropdown_select_the_prices_from_low_to_high()"
 });
 formatter.result({
-  "duration": 29943575798,
+  "duration": 19143797967,
   "status": "passed"
 });
 formatter.match({
   "location": "SotingLowtoHighStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7088755712,
+  "duration": 7329442864,
   "status": "passed"
 });
 formatter.scenario({
@@ -2060,49 +2060,49 @@ formatter.match({
   "location": "DeletingCartStepDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 4473597645,
+  "duration": 3314343776,
   "status": "passed"
 });
 formatter.match({
   "location": "DeletingCartStepDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 16788312960,
+  "duration": 11785152985,
   "status": "passed"
 });
 formatter.match({
   "location": "DeletingCartStepDefinition.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4324875644,
+  "duration": 4414889078,
   "status": "passed"
 });
 formatter.match({
   "location": "DeletingCartStepDefinition.click_Login_Button()"
 });
 formatter.result({
-  "duration": 9702486900,
+  "duration": 7684875387,
   "status": "passed"
 });
 formatter.match({
   "location": "DeletingCartStepDefinition.click_Shop_icon_Click_HTML_and_buy_the_book()"
 });
 formatter.result({
-  "duration": 63703389697,
+  "duration": 51667111331,
   "status": "passed"
 });
 formatter.match({
   "location": "DeletingCartStepDefinition.view_the_cart_html_book()"
 });
 formatter.result({
-  "duration": 7872361370,
+  "duration": 7530227250,
   "status": "passed"
 });
 formatter.match({
   "location": "DeletingCartStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7103609373,
+  "duration": 7092861906,
   "status": "passed"
 });
 formatter.scenario({
@@ -2168,63 +2168,63 @@ formatter.match({
   "location": "PlaceOrderStepsDefinition.launch_the_chrome_browser_in_system()"
 });
 formatter.result({
-  "duration": 4057465571,
+  "duration": 3438753710,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.open_the_Practice_automation_website()"
 });
 formatter.result({
-  "duration": 15835875712,
+  "duration": 13585585541,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.enter_the_Email_and_password_in_Login()"
 });
 formatter.result({
-  "duration": 4482344688,
+  "duration": 4388672493,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.click_Login_Button()"
 });
 formatter.result({
-  "duration": 9657370117,
+  "duration": 7616291188,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.click_Shop_icon_Click_JavaScript_and_buy_the_book()"
 });
 formatter.result({
-  "duration": 56193518973,
+  "duration": 24828453980,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.view_cart_Click_proceed_to_checkout_Enter_the_billing_details_and_Click_place_order()"
 });
 formatter.result({
-  "duration": 26111610316,
+  "duration": 21973617657,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.order_status_Message()"
 });
 formatter.result({
-  "duration": 5706453011,
+  "duration": 4975432689,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.logut_the_user()"
 });
 formatter.result({
-  "duration": 24441345049,
+  "duration": 16363407034,
   "status": "passed"
 });
 formatter.match({
   "location": "PlaceOrderStepsDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 7114657395,
+  "duration": 7094513068,
   "status": "passed"
 });
 });

@@ -23,15 +23,8 @@ import cucumber.api.java.en.Then;
 public class JavascriptStepDefinition {
 	LoginPage login = new LoginPage();
 
-	RegisterPage reg = new RegisterPage();
-	AndroidCategoryPage androidbook = new AndroidCategoryPage();
-	BillingDetailsPage billing = new BillingDetailsPage();
 	
 	JavaScriptPage js = new JavaScriptPage();
-	PlaceOrderPage placeorder = new PlaceOrderPage();
-	SortingLowToHighPage lowtohigh = new SortingLowToHighPage();
-	FilterAddToBasketPage filteraddtobasket = new FilterAddToBasketPage();
-	FilterFunctionalityPage filterfunc = new FilterFunctionalityPage();
 	
 //	To check if the user is able to buy books from javascipt category
 	
@@ -62,7 +55,6 @@ public class JavascriptStepDefinition {
 	@Then("^Click Shop icon, Click JavaScript and buy the book$")
 	public int click_Shop_icon_Click_JavaScript_and_buy_the_book() throws InterruptedException 
 	{
-//		js.javascriptBookCategory();
 		int javascript=js.javascriptBookCategory();
 		boolean script;
 		if(javascript==0)
@@ -82,7 +74,7 @@ public class JavascriptStepDefinition {
 	public void view_the_cart_js_book() throws InterruptedException, IOException 
 	{
 	    js.viewCartJavaScript();
-	    js.screenshot("Screenshots\\javascript.png");
+	    js.screenshot("src/test/resources/Screenshots/javascript.png");
 	}
 
 	@Then("^Closing the browser tab$")

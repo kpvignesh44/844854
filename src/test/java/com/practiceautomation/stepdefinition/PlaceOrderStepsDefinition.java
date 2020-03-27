@@ -61,7 +61,7 @@ public class PlaceOrderStepsDefinition {
 	@Then("^Click Shop button  click Java and buy the book$")
 	public int click_Shop_icon_Click_JavaScript_and_buy_the_book() throws InterruptedException 
 	{
-		js.javascriptBookCategory();
+		
 		int javascript=js.javascriptBookCategory();
 		boolean script;
 		if(javascript==0)
@@ -77,11 +77,7 @@ public class PlaceOrderStepsDefinition {
 		return javascript;
 	}
 
-//	@Then("^View the cart javascript book$")
-//	public void view_the_cart_js_book() throws InterruptedException 
-//	{
-//	    js.viewCartJavaScript();
-//	}
+
 	@Then("^View cart, Click proceed to checkout, Enter the billing details and Click place order$")
 	public void view_cart_Click_proceed_to_checkout_Enter_the_billing_details_and_Click_place_order() throws InterruptedException
 	{
@@ -94,7 +90,7 @@ public class PlaceOrderStepsDefinition {
 	public void order_status_Message() throws InterruptedException, IOException 
 	{
 	    placeorder.message();
-	    placeorder.screenshot("Screenshots\\placing_order.png");
+	    placeorder.screenshot("src/test/resources/Screenshots/placing_order.png");
 	}
 
 	@Then("^Logut the user$")

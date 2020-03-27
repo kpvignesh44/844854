@@ -17,15 +17,7 @@ import cucumber.api.java.en.Then;
 public class RegisterationStepDefinition {
 	LoginPage login = new LoginPage();
 	RegisterPage reg = new RegisterPage();
-	AndroidCategoryPage androidbook = new AndroidCategoryPage();
-	BillingDetailsPage billing = new BillingDetailsPage();
 	
-	FilterAddToBasketPage filteraddtobasket = new FilterAddToBasketPage();
-	FilterFunctionalityPage filterfunc = new FilterFunctionalityPage();
-	
-	JavaScriptPage js = new JavaScriptPage();
-	PlaceOrderPage placeorder = new PlaceOrderPage();
-	SortingLowToHighPage lowtohigh = new SortingLowToHighPage();
 	
 //	To check if the user is able to register with valid details
 	@Given("^Launch the chrome browser in system$")

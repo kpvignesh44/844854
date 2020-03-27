@@ -108,7 +108,7 @@ public class PlaceOrderPage extends LoginPage
 			Thread.sleep(2000);
 			driver.findElement(signoutclick).click();
 		}
-		
+//To take screenshot		
  public void screenshot(String path) throws IOException {
 			 
 			 TakesScreenshot ts=(TakesScreenshot)driver;

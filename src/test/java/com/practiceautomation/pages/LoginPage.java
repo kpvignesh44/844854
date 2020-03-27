@@ -25,28 +25,27 @@ public class LoginPage
 			{ 
 				
 				try 
-				{
-					
+				{					
 				//To launch firefox Browser
 					
 		       if (browser.equalsIgnoreCase("firefox")) {
-			   System.setProperty("webdriver.gecko.driver","Drivers/geckodriver.exe");
+			   System.setProperty("webdriver.gecko.driver","src/test/resources/Drivers/geckodriver.exe");
 			   driver = new FirefoxDriver();
 		}
 		       		       
 				// To launch chrome Browser
-		    else if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver","Drivers/chromedriver.exe");
-			driver=new ChromeDriver();
+		      else if (browser.equalsIgnoreCase("chrome")) {
+			  System.setProperty("webdriver.chrome.driver","src/test/resources/Drivers/chromedriver.exe");
+			  driver=new ChromeDriver();
 		}
 		       			// To launch InternetExplorer
-		else if (browser.equalsIgnoreCase("internetexplorer")) {
-				System.setProperty("webdriver.ie.driver","Drivers/IEDriverServer.exe");
-			driver=new InternetExplorerDriver();  
+		        else if (browser.equalsIgnoreCase("internetexplorer")) {
+			    System.setProperty("webdriver.ie.driver","src/test/resources/Drivers/IEDriverServer.exe");
+			    driver=new InternetExplorerDriver();  
 		}
 		       
 		       
-				//to maximize the window
+				//To maximize the window
 		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		

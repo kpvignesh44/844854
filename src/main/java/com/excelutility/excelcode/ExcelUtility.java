@@ -11,11 +11,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtility 
 {
-	//To read and get email id
+	//To read and return username
 	public String username(int i) throws IOException
 	{
 		
-		FileInputStream file= new FileInputStream("TestData\\excelsheet.xlsx");
+		FileInputStream file= new FileInputStream("src/test/resources/TestData/excelsheet.xlsx");
 		XSSFWorkbook workbook =new XSSFWorkbook(file);
 		XSSFSheet sheet= workbook.getSheet("Sheet1");
 		
@@ -28,11 +28,11 @@ public class ExcelUtility
 			return un;
 	}	
 
-	//To read and get password
+	//TO read and return password
 	public String password(int i) throws IOException
 	{
 		
-		FileInputStream file= new FileInputStream("TestData\\excelsheet.xlsx");
+		FileInputStream file= new FileInputStream("src/test/resources/TestData/excelsheet.xlsx");
 		XSSFWorkbook workbook =new XSSFWorkbook(file);
 		XSSFSheet sheet= workbook.getSheet("Sheet1");
 			

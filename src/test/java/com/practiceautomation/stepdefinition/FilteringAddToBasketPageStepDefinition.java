@@ -15,7 +15,6 @@ import cucumber.api.java.en.Then;
 public class FilteringAddToBasketPageStepDefinition {
 	LoginPage login = new LoginPage();
 	FilterAddToBasketPage filteraddtobasket = new FilterAddToBasketPage();
-	FilterFunctionalityPage filterfunc = new FilterFunctionalityPage();
 	
 //	To check if the user is able to add the books in the basket on the filtered price
 	
@@ -62,7 +61,7 @@ String expectedurl="http://practice.automationtesting.in/shop/?min_price=394&max
 
 	@Then("^Close$")
 	public void close_the_browser() throws InterruptedException, IOException 
-	{filteraddtobasket.screenshot("Screenshots\\Filter_basket.png");
+	{filteraddtobasket.screenshot("src/test/resources/Screenshots/Filter_basket.png");
 	    login.closeBrowser();
 	}
 

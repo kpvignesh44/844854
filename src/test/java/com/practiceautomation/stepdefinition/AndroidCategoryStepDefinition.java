@@ -55,8 +55,9 @@ public class AndroidCategoryStepDefinition {
 	public int click_Shop_icon_click_android_and_buy_the_book() throws InterruptedException, IOException
 	{
 	    
-	    androidbook.screenshot("Screenshots\\android.png");
-		int android=androidbook.androidBookCategory();
+	    		int android=androidbook.androidBookCategory();
+	    		androidbook.screenshot("src/test/resources/Screenshots/android.png");
+
 		System.out.println("Total number of Android books Available: "+android);
 		Boolean b;
 		if(android==0)

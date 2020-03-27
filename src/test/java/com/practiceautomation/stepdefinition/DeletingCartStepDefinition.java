@@ -66,7 +66,7 @@ public int click_Shop_icon_Click_HTML_and_buy_the_book() throws InterruptedExcep
 public void view_the_cart_html_book() throws InterruptedException, IOException 
 {
  html.delete();
- html.screenshot("Screenshots\\deleting_cart.png");
+ html.screenshot("src/test/resources/Screenshots/deleting_cart.png");
 }
 @Then("^Closing the chrome browser tabs$")
 public void close_the_browser() throws InterruptedException 
